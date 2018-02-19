@@ -1,0 +1,1 @@
+	TMP006_SetDataReadyEnable(0, 1);

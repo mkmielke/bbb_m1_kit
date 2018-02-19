@@ -1,0 +1,58 @@
+{
+	"type": "Embedded Library",
+	"label": "TMP006 Driver",
+	"language": {
+		"en": {
+			"label": "TMP006 Driver"
+		}
+	},
+	"name": "tmp006",
+	"author": "Anaren Inc.",
+	"manufacturer":"Texas Instruments",
+	"description":"World's first single-chip digital IR MEMS temperature sensor\nEnables contactless temperature measurement in portable and consumer electronic applications\n\nDeveloped through TI's expertise in MEMS technology, the TMP006 is the first of a new class of ultra-small, low power, and low cost passive infrared temperature sensors. It has 90% lower power consumption and is more than 95% smaller than existing solutions, making contactless temperature measurement possible in completely new markets and applications.",
+	"signature": "",
+	"version": "1.1.0",
+	"changelog":{"1.0.0":"Initial release", "1.1.0":"Switch to using standard types and some clean ups."},
+	
+	"code": {
+		"global" : "",
+		"setup" : "" 
+	},
+	
+	"elements": {
+		"objectTemperature": {
+			"label": "Object Temperature",
+			"language": {
+				"en": {
+					"label": "Object Temperature"
+				}
+			},
+			"returnType":"float",
+			"inputType":"void",
+			"icon": null,
+			"code": ""
+		},
+		
+		"ambientTemperature": {
+			"label": "Ambient Temperature",
+			"language": {
+				"en": {
+					"label": "Ambient Temperature"
+				}
+			},
+			"returnType":"float",
+			"inputType":"void",
+			"icon": null,
+			"code": ""
+		}
+	},
+	
+	"categories":["Temperature", "Sensor"],
+	
+	
+	"links":{
+		"Product Page":"http://www.ti.com/product/TMP006",
+		"Datasheet":"http://www.ti.com/product/TMP006/datasheet",
+		"Wiki Page":"https://atmosphere.anaren.com/wiki/TMP006_Driver"
+	}
+}
