@@ -30,7 +30,7 @@
 #ifndef _SHT31_H_
 #define _SHT31_H_
 
-#include "tmp006_config.h"
+#include "sht31_config.h"
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>

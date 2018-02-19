@@ -236,7 +236,7 @@ void sht31_init( void )
   // set the slave address to that of the sht31 sensor
   if ( ioctl( i2c_fd, I2C_SLAVE, 0x44 ) < 0 )
   {
-    dbg_error = -2;
+    init_error = -2;
     return;
   }
 }
