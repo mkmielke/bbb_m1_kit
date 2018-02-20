@@ -1,0 +1,57 @@
+{
+	"type": "Embedded Library",
+	"label": "SHT31 Driver",
+	"language": {
+		"en": {
+			"label": "SHT31 Driver"
+		}
+	},
+	"name": "sht31",
+	"author": "Digi-Key Electronics",
+	"manufacturer":"Senserion",
+	"description":"SHT3x-DIS is the next generation of Sensirion’s temperature and humidity sensors. It builds on a new CMOSens® sensor chip that is at the heart of Sensirion’s new humidity and temperature platform. The SHT3x-DIS has increased intelligence, reliability and improved accuracy specifications compared to its predecessor. Its functionality includes enhanced signal processing, two distinctive and user selectable I2C addresses and communication speeds of up to 1 MHz. The DFN package has a footprint of 2.5 x 2.5 mm2 while keeping a height of 0.9 mm. This allows for integration of the SHT3x-DIS into a great variety of applications. Additionally, the wide supply voltage range of 2.4 V to 5.5 V guarantees compatibility with diverse assembly situations. All in all, the SHT3x-DIS incorporates 15 years of knowledge of Sensirion, the leader in the humidity sensor industry.",
+	"signature": "",
+	"version": "1.0.0",
+	"changelog":{"1.0.0":"Initial release"},
+	
+	"code": {
+		"global" : "",
+		"setup" : "" 
+	},
+	
+	"elements": {
+		"Humidity": {
+			"label": "Humidity",
+			"language": {
+				"en": {
+					"label": "Humidity"
+				}
+			},
+			"returnType":"float",
+			"inputType":"void",
+			"icon": null,
+			"code": ""
+		},
+		
+		"Temperature": {
+			"label": "Temperature",
+			"language": {
+				"en": {
+					"label": "Temperature"
+				}
+			},
+			"returnType":"float",
+			"inputType":"void",
+			"icon": null,
+			"code": ""
+		}
+	},
+	
+	"categories":["Temperature", "Humidity", "Sensor"],
+	
+	
+	"links":{
+		"Product Page":"TMP00://www.sensirion.com/en/environmental-sensors/humidity-sensors/digital-humidity-sensors-for-various-applications/",
+		"Datasheet":"https://www.sensirion.com/fileadmin/user_upload/customers/sensirion/Dokumente/2_Humidity_Sensors/Sensirion_Humidity_Sensors_SHT3x_Datasheet_digital.pdf"
+	}
+}
